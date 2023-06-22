@@ -26,7 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+main {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
 @font-face {
   font-family: "burtons";
-  src: url('../public/Burtons.otf');
+  src: url("../public/Burtons.otf");
 }
