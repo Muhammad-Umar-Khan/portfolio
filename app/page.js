@@ -2,8 +2,18 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>portfolio website</h1>
+    <main>
+      <section className="min-h-screen">
+        <nav>
+          <h1>Umar Khan</h1>
+          <ul>
+            <li></li>
+            <li className="bg-blue-700 w-20 text-center">
+              <a href="#">RESUME</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </main>
   );
 }
