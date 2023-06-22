@@ -1,6 +1,9 @@
-import Image from "next/image";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
+import Image from "next/image";
+import frontend from "../public/frontend.jpg";
+import backend from "../public/backend.png";
+import fullstack from "../public/fullstack.png";
 
 export default function Home() {
   return (
@@ -17,18 +20,58 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div>
-          <h2 className="">Umar Khan</h2>
-          <h3>Software Engineer</h3>
-          <p>
+        <div className="text-center p-10">
+          <h2 className="text-teal-500 font-Poppins font-bold text-5xl py-2">
+            Umar Khan
+          </h2>
+          <h3 className="text-2xl py-2">Software Engineer</h3>
+          <p className="text-md py-5 leading-8 text-slate-800">
             I am a software engineer with more than a year of experience working
             in the industry
           </p>
         </div>
-        <div>
+        <div className="flex justify-center text-5xl text-gray-600 gap-5 py-3">
           <AiFillGithub />
           <AiFillYoutube />
         </div>
+        <section className="p-10">
+          <h3 className="text-2xl text-teal-500 font-bold my-3">SERVICES</h3>
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-lg">
+              <Image src={frontend} />
+              <p className="mt-2">
+                I have worked intensively with the frontend using the
+                technologies like react, next, CSS, Tailwind, Bootstrap
+              </p>
+            </div>
+            <div className="text-center shadow-lg p-5 rounded-lg">
+              <Image src={backend} width={300} height={150} />
+              <p className="mt-2">
+                I have worked intensively with the frontend using the
+                technologies like react, next, CSS, Tailwind, Bootstrap
+              </p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-lg">
+              <Image src={fullstack} width={300} height={150} />
+              <p className="mt-2">
+                I have worked intensively with the frontend using the
+                technologies like react, next, CSS, Tailwind, Bootstrap
+              </p>
+            </div>
+          </div>
+        </section>
+        <section className="p-10">
+          <p className="text-2xl text-teal-500 font-bold my-3">PROJECTS</p>
+          <div className="text-center shadow-lg p-5 rounded-lg">
+            <span>
+              <Image />
+              <p>
+                This is fullstack project made in in react and node, and for the
+                database i have used mongoDB
+              </p>
+            </span>
+          </div>
+        </section>
       </section>
     </main>
   );
