@@ -4,6 +4,7 @@ import Image from "next/image";
 import frontend from "../public/frontend.jpg";
 import backend from "../public/backend.png";
 import fullstack from "../public/fullstack.png";
+import crypto from "../public/crypto.png";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
             in the industry
           </p>
         </div>
-        <div className="flex justify-center text-5xl text-gray-600 gap-5 py-3">
+        <div className="flex justify-center text-5xl text-gray-600 gap-105 py-3">
           <AiFillGithub />
           <AiFillYoutube />
         </div>
@@ -62,14 +63,43 @@ export default function Home() {
         </section>
         <section className="p-10">
           <p className="text-2xl text-teal-500 font-bold my-3">PROJECTS</p>
-          <div className="text-center shadow-lg p-5 rounded-lg">
-            <span>
-              <Image />
-              <p>
-                This is fullstack project made in in react and node, and for the
-                database i have used mongoDB
-              </p>
-            </span>
+          <div className="gap-10 lg:flex">
+            <div className="text-center shadow-lg p-5 rounded-lg">
+              <span>
+                <Image src={crypto} />
+                <p className="py-3">
+                  This is frontend project made in in react and tailwindcss.
+                  This is an online payment website just for the frontend
+                  and does not have any backend attached to it
+                </p>
+              </span>
+              <div className="flex justify-center">
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
+                  href="https://crypto-olive.vercel.app/"
+                  target="blank"
+                >
+                  Live
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
+                  href="https://github.com/Muhammad-Umar-Khan/crypto"
+                  target="blank"
+                >
+                  code
+                </a>
+              </div>
+            </div>
+            <div className="text-center shadow-lg p-5 rounded-lg">
+              <span>
+                <Image />
+                <p>
+                  This is fullstack project made in in react and node, and for
+                  the database i have used mongoDB
+                </p>
+              </span>
+            </div>
           </div>
         </section>
       </section>
