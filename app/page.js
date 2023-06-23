@@ -6,6 +6,7 @@ import backend from "../public/backend.png";
 import fullstack from "../public/fullstack.png";
 import bookstoreApi from "../public/bookstoreApi.png";
 import crypto from "../public/crypto.png";
+import fullstack02 from "../public/fullstack02.png";
 
 export default function Home() {
   return (
@@ -64,8 +65,8 @@ export default function Home() {
         </section>
         <section className="p-10">
           <p className="text-2xl text-teal-500 font-bold my-3">PROJECTS</p>
-          <div className="gap-10 lg:flex">
-            <div className="text-center shadow-lg p-5 rounded-lg">
+          <div className="gap-10 sm:flex justify-center">
+            <div className="text-center shadow-lg p-5 rounded-lg lg:w-4/12">
               <span>
                 <Image src={crypto} />
                 <p className="py-3">
@@ -92,13 +93,16 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-lg">
+            <div className="text-center shadow-lg p-5 rounded-lg lg:w-4/12">
               <span>
                 <Image src={bookstoreApi} />
                 <p className="py-3">
-                  This is frontend project made in in react and tailwindcss.
-                  This is an online payment website just for the frontend and
-                  does not have any backend attached to it
+                  This is an API - backend for an online bookshop. This backend
+                  has two entities, users and books. A user can register and
+                  login. User can read all books and buy a book, while admin-
+                  superuser can add, edit, delete a book. Admin can block or
+                  unblock any user and can see the sales stats of any book for a
+                  specific deuration.
                 </p>
               </span>
               <div className="flex justify-center">
@@ -119,14 +123,35 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-lg">
+            <div className="text-center shadow-lg p-5 rounded-lg lg:w-4/12">
               <span>
-                <Image />
-                <p>
-                  This is fullstack project made in in react and node, and for
-                  the database i have used mongoDB
+                <Image src={fullstack02} />
+                <p className="py-3">
+                  This is an API - backend for an online bookshop. This backend
+                  has two entities, users and books. A user can register and
+                  login. User can read all books and buy a book, while admin-
+                  superuser can add, edit, delete a book. Admin can block or
+                  unblock any user and can see the sales stats of any book for a
+                  specific deuration.
                 </p>
               </span>
+              <div className="flex justify-center">
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
+                  href="https://documenter.getpostman.com/view/16657820/2s93z5AkBa"
+                  target="blank"
+                >
+                  Live
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
+                  href="https://github.com/Muhammad-Umar-Khan/bookshop-API"
+                  target="blank"
+                >
+                  code
+                </a>
+              </div>
             </div>
           </div>
         </section>
