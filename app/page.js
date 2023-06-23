@@ -4,6 +4,7 @@ import Image from "next/image";
 import frontend from "../public/frontend.jpg";
 import backend from "../public/backend.png";
 import fullstack from "../public/fullstack.png";
+import bookstoreApi from "../public/bookstoreApi.png";
 import crypto from "../public/crypto.png";
 
 export default function Home() {
@@ -69,8 +70,8 @@ export default function Home() {
                 <Image src={crypto} />
                 <p className="py-3">
                   This is frontend project made in in react and tailwindcss.
-                  This is an online payment website just for the frontend
-                  and does not have any backend attached to it
+                  This is an online payment website just for the frontend and
+                  does not have any backend attached to it
                 </p>
               </span>
               <div className="flex justify-center">
@@ -85,6 +86,33 @@ export default function Home() {
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
                   href="https://github.com/Muhammad-Umar-Khan/crypto"
+                  target="blank"
+                >
+                  code
+                </a>
+              </div>
+            </div>
+            <div className="text-center shadow-lg p-5 rounded-lg">
+              <span>
+                <Image src={bookstoreApi} />
+                <p className="py-3">
+                  This is frontend project made in in react and tailwindcss.
+                  This is an online payment website just for the frontend and
+                  does not have any backend attached to it
+                </p>
+              </span>
+              <div className="flex justify-center">
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
+                  href="https://documenter.getpostman.com/view/16657820/2s93z5AkBa"
+                  target="blank"
+                >
+                  Live
+                </a>
+
+                <a
+                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
+                  href="https://github.com/Muhammad-Umar-Khan/bookshop-API"
                   target="blank"
                 >
                   code
