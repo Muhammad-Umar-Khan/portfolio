@@ -37,25 +37,40 @@ export default function Home() {
           <AiFillGithub />
           <AiFillYoutube />
         </div>
-        <section className="p-10">
+        <section>
           <h3 className="text-2xl text-teal-500 font-bold my-3">SERVICES</h3>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-lg">
-              <Image src={frontend} />
+          <div className="md:flex gap-10">
+            <div className="text-center shadow-lg p-2 rounded-lg">
+              <Image
+                src={frontend}
+                width={400}
+                height={200}
+                className="mx-auto"
+              />
               <p className="mt-2">
                 I have worked intensively with the frontend using the
                 technologies like react, next, CSS, Tailwind, Bootstrap
               </p>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-lg">
-              <Image src={backend} width={300} height={150} />
+            <div className="text-center shadow-lg p-2 rounded-lg">
+              <Image
+                src={backend}
+                width={400}
+                height={200}
+                className="mx-auto"
+              />
               <p className="mt-2">
                 I have worked intensively with the frontend using the
                 technologies like react, next, CSS, Tailwind, Bootstrap
               </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-lg">
-              <Image src={fullstack} width={300} height={150} />
+            <div className="text-center shadow-lg p-2 rounded-lg">
+              <Image
+                src={fullstack}
+                width={400}
+                height={200}
+                className="mx-auto"
+              />
               <p className="mt-2">
                 I have worked intensively with the frontend using the
                 technologies like react, next, CSS, Tailwind, Bootstrap
@@ -63,16 +78,27 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="p-10">
+        <section>
           <p className="text-2xl text-teal-500 font-bold my-3">PROJECTS</p>
-          <div className="gap-10 sm:flex justify-center">
-            <div className="text-center shadow-lg p-5 rounded-lg lg:w-4/12">
+          <div className="gap-10 md:flex justify-center">
+            <div className="flex flex-col justify-center items-center shadow-lg p-2 rounded-lg">
               <span>
-                <Image src={crypto} />
+                <Image
+                  src={crypto}
+                  width={400}
+                  height={200}
+                  className="mx-auto"
+                />
                 <p className="py-3">
-                  This is frontend project made in in react and tailwindcss.
+                  This is an API - backend for an online bookshop. This backend
+                  has two entities, users and books. A user can register and
+                  login. User can read all books and buy a book, while admin-
+                  superuser can add, edit, delete a book. Admin can block or
+                  unblock any user and can see the sales stats of any book for a
+                  specific deuration.
+                  {/* This is frontend project made in in react and tailwindcss.
                   This is an online payment website just for the frontend and
-                  does not have any backend attached to it
+                  does not have any backend attached to it */}
                 </p>
               </span>
               <div className="flex justify-center">
@@ -93,9 +119,14 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-lg lg:w-4/12">
+            <div className="text-center shadow-lg p-2 rounded-lg">
               <span>
-                <Image src={bookstoreApi} />
+                <Image
+                  src={bookstoreApi}
+                  width={400}
+                  height={200}
+                  className="mx-auto"
+                />
                 <p className="py-3">
                   This is an API - backend for an online bookshop. This backend
                   has two entities, users and books. A user can register and
@@ -123,9 +154,14 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-lg lg:w-4/12">
+            <div className="text-center shadow-lg p-2 rounded-lg">
               <span>
-                <Image src={fullstack02} />
+                <Image
+                  src={fullstack02}
+                  width={400}
+                  height={200}
+                  className="mx-auto"
+                />
                 <p className="py-3">
                   This is an API - backend for an online bookshop. This backend
                   has two entities, users and books. A user can register and
