@@ -1,6 +1,6 @@
 "use client";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
 import frontend from "../public/frontend.jpg";
 import backend from "../public/backend.png";
@@ -25,7 +25,9 @@ export default function Home() {
               <BsFillMoonStarsFill className="dark:text-white" />
             </li>
             <li className="bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-4 text-white ml-5 rounded-md">
-              <a href="#">RESUME</a>
+              <a href="https://github.com/Muhammad-Umar-Khan" target="blank">
+                RESUME
+              </a>
             </li>
           </ul>
         </nav>
@@ -37,15 +39,15 @@ export default function Home() {
             Software Engineer
           </h3>
           <p className="font-semibold text-xl py-5 leading-8 text-slate-800 dark:text-white lg:max-w-2xl mx-auto">
-            Hello, Nice to meet you! I am a software engineer with
-            more than a year of experience working in the industry, now i work
-            as independent freelancer dedicated to delivering hight quality
+            Hello, Nice to meet you! I am a software engineer with more than a
+            year of experience working in the industry, now i work as
+            independent freelancer dedicated to delivering hight quality
             softwares. Really looking forward to collabrate on your project
           </p>
         </div>
         <div className="flex justify-center text-5xl text-gray-600 gap-105 py-3">
-          <AiFillGithub />
-          <AiFillYoutube />
+          <AiFillGithub href="https://github.com/Muhammad-Umar-Khan"/>
+          <AiFillLinkedin href="linkedin.com/in/muhammad-umar-khan-4536b7196" />
         </div>
         <section>
           <h3 className="text-2xl text-teal-500 font-bold my-3">SERVICES</h3>
@@ -174,26 +176,17 @@ export default function Home() {
                   className="mx-auto"
                 />
                 <p className="py-3">
-                  This is an API - backend for an online bookshop. This backend
-                  has two entities, users and books. A user can register and
-                  login. User can read all books and buy a book, while admin-
-                  superuser can add, edit, delete a book. Admin can block or
-                  unblock any user and can see the sales stats of any book for a
-                  specific deuration.
+                  This is a fullstack project made with node, express, mongoDB
+                  and a templating engine called EJS. This is a campground
+                  website where users can creat their own campground, rent and
+                  rate a campground. The app also has a five star rating and
+                  review functionality for campgrounds they stayed in.
                 </p>
               </span>
               <div className="flex justify-center">
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
-                  href="https://documenter.getpostman.com/view/16657820/2s93z5AkBa"
-                  target="blank"
-                >
-                  Live
-                </a>
-
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
-                  href="https://github.com/Muhammad-Umar-Khan/bookshop-API"
+                  href="https://github.com/Muhammad-Umar-Khan/CampZen"
                   target="blank"
                 >
                   code
