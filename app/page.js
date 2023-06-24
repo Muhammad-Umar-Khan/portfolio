@@ -68,7 +68,7 @@ export default function Home() {
                 className="mx-auto"
               />
               <p className="mt-2">
-                I provide freelance frontend services, focusing on React,
+                I work with frontend technologies focusing on React,
                 Next.js, Bootstrap, and Tailwind CSS. My expertise lies in
                 crafting captivating and adaptable user interfaces that ensure
                 an engaging user experience. By utilizing the capabilities of
