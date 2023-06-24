@@ -38,16 +38,23 @@ export default function Home() {
           <h3 className="lg:text-2xl text-xl py-2 dark:text-white">
             Software Engineer
           </h3>
-          <p className="font-semibold text-xl py-5 leading-8 text-slate-800 dark:text-white lg:max-w-2xl mx-auto">
+          <p className="font-normal text-xl py-5 leading-8 text-slate-800 dark:text-white lg:max-w-2xl mx-auto">
             Hello, Nice to meet you! I am a software engineer with more than a
             year of experience working in the industry, now i work as
             independent freelancer dedicated to delivering hight quality
             softwares. Really looking forward to collabrate on your project
           </p>
         </div>
-        <div className="flex justify-center text-5xl text-gray-600 gap-105 py-3">
-          <AiFillGithub href="https://github.com/Muhammad-Umar-Khan"/>
-          <AiFillLinkedin href="linkedin.com/in/muhammad-umar-khan-4536b7196" />
+        <div className="flex justify-center text-5xl text-gray-600 gap-11 py-3">
+          <a href="https://github.com/Muhammad-Umar-Khan" target="blank">
+            <AiFillGithub />
+          </a>
+          <a
+            href="https://linkedin.com/in/muhammad-umar-khan-4536b7196"
+            target="blank"
+          >
+            <AiFillLinkedin />
+          </a>
         </div>
         <section>
           <h3 className="text-2xl text-teal-500 font-bold my-3">SERVICES</h3>
