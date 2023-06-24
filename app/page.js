@@ -68,8 +68,12 @@ export default function Home() {
                 className="mx-auto"
               />
               <p className="mt-2">
-                I have worked intensively with the frontend using the
-                technologies like react, next, CSS, Tailwind, Bootstrap
+                I provide freelance frontend services, focusing on React,
+                Next.js, Bootstrap, and Tailwind CSS. My expertise lies in
+                crafting captivating and adaptable user interfaces that ensure
+                an engaging user experience. By utilizing the capabilities of
+                these technologies, I deliver high-performance and visually
+                appealing frontend solutions.
               </p>
             </div>
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5">
@@ -81,8 +85,13 @@ export default function Home() {
                 className="mx-auto"
               />
               <p className="mt-2">
-                I have worked intensively with the frontend using the
-                technologies like react, next, CSS, Tailwind, Bootstrap
+                I offer backend services in Node.js, Express, and MongoDB. I
+                specialize in creating efficient and scalable web applications,
+                leveraging the power of these technologies. From designing
+                architecture to implementing APIs and database interactions, I
+                deliver reliable solutions tailored to your specific needs.
+                Let's bring your ideas to life with powerful and efficient
+                backend development.
               </p>
             </div>
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5">
@@ -94,8 +103,12 @@ export default function Home() {
                 className="mx-auto"
               />
               <p className="mt-2">
-                I have worked intensively with the frontend using the
-                technologies like react, next, CSS, Tailwind, Bootstrap
+                In fullstack development i work with technologies including Node.js,
+                Express, MongoDB, React, Next.js, Bootstrap, and Tailwind CSS.
+                With expertise in both frontend and backend development, I
+                deliver end-to-end solutions for web applications. From building
+                efficient server-side systems to creating captivating user
+                interfaces
               </p>
             </div>
           </div>
