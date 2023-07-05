@@ -31,7 +31,7 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div className="text-center p-10">
+        <div className="text-center lg:p-10 sm:p-4">
           <h2 className="text-teal-500 font-Poppins font-bold text-5xl py-2 lg:text-6xl">
             Umar Khan
           </h2>
@@ -41,7 +41,7 @@ export default function Home() {
           <p className="font-normal text-xl py-5 leading-8 text-slate-800 dark:text-white lg:max-w-2xl mx-auto">
             Hello, Nice to meet you! I am a software engineer with more than a
             year of experience working in the industry, now i work as
-            independent freelancer dedicated to delivering hight quality
+            independent freelancer dedicated to delivering high quality
             softwares. Really looking forward to collabrate on your project
           </p>
         </div>
