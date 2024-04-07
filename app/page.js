@@ -39,7 +39,7 @@ export default function Home() {
             Software Engineer
           </h3>
           <p className="font-normal text-xl py-5 leading-8 text-slate-800 dark:text-white lg:max-w-2xl mx-auto">
-            Hello, Nice to meet you! I am a Computer engineering graduate with more than two
+            Hello, Nice to meet you! I am a Computer engineering graduate with four (4)
             years of experience working in the industry, now i work as
             independent freelancer dedicated to delivering high quality
             softwares. Really looking forward to collabrate on your project
