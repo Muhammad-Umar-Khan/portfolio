@@ -39,8 +39,8 @@ export default function Home() {
             Software Engineer
           </h3>
           <p className="font-normal text-xl py-5 leading-8 text-slate-800 dark:text-white lg:max-w-2xl mx-auto">
-            Hello, Nice to meet you! I am a Computer engineering graduate with four (4)
-            years of experience working in the industry, now i work as
+            Hello, Nice to meet you! I am a Computer engineering graduate with
+            four (4) years of experience working in the industry, now i work as
             independent freelancer dedicated to delivering high quality
             softwares. Really looking forward to collabrate on your project
           </p>
@@ -60,6 +60,7 @@ export default function Home() {
           <h3 className="text-2xl text-teal-500 font-bold my-3">SERVICES</h3>
           <div className="md:flex gap-10">
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5">
+              <h4 className="text-2xl font-bold my-3">Front-End</h4>
               <Image
                 alt="frontend"
                 src={frontend}
@@ -68,15 +69,16 @@ export default function Home() {
                 className="mx-auto"
               />
               <p className="mt-2">
-                I work with frontend technologies focusing on React,
-                Next.js, Bootstrap, and Tailwind CSS. My expertise lies in
-                crafting captivating and adaptable user interfaces that ensure
-                an engaging user experience. By utilizing the capabilities of
-                these technologies, I deliver high-performance and visually
-                appealing frontend solutions.
+                I work with frontend technologies focusing on React, Next.js,
+                Bootstrap, and Tailwind CSS. My expertise lies in crafting
+                captivating and adaptable user interfaces that ensure an
+                engaging user experience. By utilizing the capabilities of these
+                technologies, I deliver high-performance and visually appealing
+                frontend solutions.
               </p>
             </div>
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5">
+              <h4 className="text-2xl font-bold my-3">Back-End</h4>
               <Image
                 alt="backend"
                 src={backend}
@@ -95,6 +97,8 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5">
+            <h4 className="text-2xl font-bold my-3">Full-Stack</h4>
+
               <Image
                 alt="fullstack"
                 src={fullstack}
@@ -103,12 +107,12 @@ export default function Home() {
                 className="mx-auto"
               />
               <p className="mt-2">
-                In fullstack development i work with technologies including Node.js,
-                Express, MongoDB, React, Next.js, Bootstrap, and Tailwind CSS.
-                With expertise in both frontend and backend development, I
-                deliver end-to-end solutions for web applications. From building
-                efficient server-side systems to creating captivating user
-                interfaces
+                In fullstack development i work with technologies including
+                Node.js, Express, MongoDB, React, Next.js, Bootstrap, and
+                Tailwind CSS. With expertise in both frontend and backend
+                development, I deliver end-to-end solutions for web
+                applications. From building efficient server-side systems to
+                creating captivating user interfaces
               </p>
             </div>
           </div>
