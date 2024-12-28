@@ -56,6 +56,15 @@ export default function Home() {
             <AiFillLinkedin />
           </a>
         </div>
+        <section className="text-center md:text-left py-5">
+          <h3 className="text-2xl text-teal-500 font-bold my-3">Skills</h3>
+          <p className="text-xl dark:text-white">
+            JavaScript/TypeScript - React.Js - Next.Js - Node.Js - Express - MongoDB - SQL
+          </p>
+          <p className="text-xl py-2 dark:text-white">
+            TailwindCSS - Bootstrap - MaterialUI - React-Native - Wordpress - Shopify
+          </p>
+        </section>
         <section>
           <h3 className="text-2xl text-teal-500 font-bold my-3">SERVICES</h3>
           <div className="md:flex gap-10">
@@ -97,7 +106,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5">
-            <h4 className="text-2xl font-bold my-3">Full-Stack</h4>
+              <h4 className="text-2xl font-bold my-3">Full-Stack</h4>
 
               <Image
                 alt="fullstack"
