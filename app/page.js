@@ -14,7 +14,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <main className={darkMode ? "dark" : ""}>
-      <section className="min-h-screen px-10 dark:bg-gray-900">
+      <section className="min-h-screen px-10 pb-8 dark:bg-gray-900">
         <nav className="flex justify-between py-10">
           <h1 className="text-xl font-burtons dark:text-white">Umar Khan</h1>
           <ul className="flex items-center">
@@ -59,10 +59,12 @@ export default function Home() {
         <section className="text-center md:text-left py-5">
           <h3 className="text-2xl text-teal-500 font-bold my-3">Skills</h3>
           <p className="text-xl dark:text-white">
-            JavaScript/TypeScript - React.Js - Next.Js - Node.Js - Express - MongoDB - SQL
+            JavaScript/TypeScript - React.Js - Next.Js - Node.Js - Express -
+            MongoDB - SQL
           </p>
           <p className="text-xl py-2 dark:text-white">
-            TailwindCSS - Bootstrap - MaterialUI - React-Native - Wordpress - Shopify
+            TailwindCSS - Bootstrap - MaterialUI - React-Native - Wordpress -
+            Shopify
           </p>
         </section>
         <section>
@@ -129,7 +131,9 @@ export default function Home() {
         <section>
           <p className="text-2xl text-teal-500 font-bold my-3">PROJECTS</p>
           <div className="gap-10 md:flex justify-center">
-            <div className="flex flex-col justify-center items-center shadow-lg p-2 rounded-lg dark:bg-white mb-5 lg:w-4/12">
+            <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5 lg:w-4/12">
+              <h4 className="text-2xl font-bold my-3">Maitris</h4>
+
               <span>
                 <Image
                   alt="crypto"
@@ -142,7 +146,9 @@ export default function Home() {
                   This is frontend project made in in react and tailwindcss.
                   This is an online payment website just for the frontend and
                   does not have any backend attached to it. This is for the
-                  demonstration of my frontend and designing skills
+                  demonstration of my frontend and designing skills payment
+                  website just for the frontend and does not have any backend
+                  attached to it.
                 </p>
               </span>
               <div className="flex justify-center">
@@ -153,7 +159,6 @@ export default function Home() {
                 >
                   Live
                 </a>
-
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
                   href="https://github.com/Muhammad-Umar-Khan/crypto"
@@ -165,6 +170,8 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5 lg:w-4/12">
               <span>
+                <h4 className="text-2xl font-bold my-3">Role Play Tribe</h4>
+
                 <Image
                   alt="booksapi"
                   src={bookstoreApi}
@@ -177,8 +184,7 @@ export default function Home() {
                   has two entities, users and books. A user can register and
                   login. User can read all books and buy a book, while admin-
                   superuser can add, edit, delete a book. Admin can block or
-                  unblock any user and can see the sales stats of any book for a
-                  specific deuration.
+                  unblock any user and can see the sales stats of any book for a.                  
                 </p>
               </span>
               <div className="flex justify-center">
@@ -200,6 +206,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5 lg:w-4/12">
+              <h4 className="text-2xl font-bold my-3">Life Time Deals</h4>
               <span>
                 <Image
                   alt="fullstack02"
