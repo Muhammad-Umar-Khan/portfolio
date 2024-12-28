@@ -181,7 +181,7 @@ export default function Home() {
                 />
                 <p className="py-3">
                   This is an API - backend for an online bookshop. This backend
-                  has two entities, users and books. A user can register and
+                  has two entities, users and books. A user can register
                   login. User can read all books and buy a book, while admin-
                   superuser can add, edit, delete a book. Admin can block or
                   unblock any user and can see the sales stats of any book for a.                  
