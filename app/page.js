@@ -1,14 +1,14 @@
 "use client";
 import { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import frontend from "../public/frontend.jpg";
 import backend from "../public/backend.png";
 import fullstack from "../public/fullstack.png";
-import rolePlayTribe from "../public/RPT.png";
-import pst from "../public/PST.png";
-import ltd from "../public/LTD.png";
+import rolePlayTribe from "../public/RPT.PNG";
+import pst from "../public/PST.PNG";
+import ltd from "../public/LTD.PNG";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -143,12 +143,12 @@ export default function Home() {
                   className="mx-auto"
                 />
                 <p className="py-3">
-                  This is frontend project made in in react and tailwindcss.
-                  This is an online payment website just for the frontend and
-                  does not have any backend attached to it. This is for the
-                  demonstration of my frontend and designing skills payment
-                  website just for the frontend and does not have any backend
-                  attached to it.
+                  Peter Stanely Traning is an online training and testing
+                  software for first hand respondents of NHS and operation
+                  resiliance. This has AI integrated inside the app to
+                  facilitate learning and provide good user experience. Helps
+                  you save costs on training your team for emergency situations.
+                  It is best suited for enterprise clients.
                 </p>
               </span>
               <div className="flex justify-center">
@@ -164,7 +164,6 @@ export default function Home() {
             <div className="text-center shadow-lg p-2 rounded-lg dark:bg-white mb-5 lg:w-4/12">
               <span>
                 <h4 className="text-2xl font-bold my-3">Role Play Tribe</h4>
-
                 <Image
                   alt="booksapi"
                   src={rolePlayTribe}
@@ -173,28 +172,21 @@ export default function Home() {
                   className="mx-auto"
                 />
                 <p className="py-3">
-                  This is an API - backend for an online bookshop. This backend
-                  has two entities, users and books. A user can register login.
-                  User can read all books and buy a book, while admin- superuser
-                  can add, edit, delete a book. Admin can block or unblock any
-                  user and can see the sales stats of any book for a.
+                  This is an online platform for realtors to practice their
+                  skills and get feedback. It provides various scenarios and
+                  role-playing exercises to help realtors improve their
+                  negotiation, communication, and sales skills. The platform
+                  also includes a community feature where users can share their
+                  experiences and learn from each other.
                 </p>
               </span>
               <div className="flex justify-center">
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
-                  href="https://documenter.getpostman.com/view/16657820/2s93z5AkBa"
+                  href="https://roleplaytribe.com/"
                   target="blank"
                 >
                   Live
-                </a>
-
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
-                  href="https://github.com/Muhammad-Umar-Khan/bookshop-API"
-                  target="blank"
-                >
-                  code
                 </a>
               </div>
             </div>
@@ -213,16 +205,17 @@ export default function Home() {
                   entrepreneurs who are looking forward to start but don't have
                   a solid idea to kick-start things off. They offer a ideas in
                   niches like SAAS, sales, non-profit, content-marketing, stock
-                  investing and allot more
+                  investing and allot more. Early stage entrepreneurs can get a
+                  lot of value from this product.
                 </p>
               </span>
               <div className="flex justify-center">
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
-                  href="https://github.com/Muhammad-Umar-Khan/CampZen"
+                  href="https://ltd-ideas.vercel.app/"
                   target="blank"
                 >
-                  code
+                  Live
                 </a>
               </div>
             </div>
