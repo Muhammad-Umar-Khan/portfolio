@@ -6,9 +6,9 @@ import Image from "next/image";
 import frontend from "../public/frontend.jpg";
 import backend from "../public/backend.png";
 import fullstack from "../public/fullstack.png";
-import bookstoreApi from "../public/bookstoreApi.png";
-import crypto from "../public/crypto.png";
-import fullstack02 from "../public/fullstack02.png";
+import rolePlayTribe from "../public/RPT.png";
+import pst from "../public/PST.png";
+import ltd from "../public/LTD.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -136,8 +136,8 @@ export default function Home() {
 
               <span>
                 <Image
-                  alt="crypto"
-                  src={crypto}
+                  alt="pst"
+                  src={pst}
                   width={400}
                   height={200}
                   className="mx-auto"
@@ -154,17 +154,10 @@ export default function Home() {
               <div className="flex justify-center">
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
-                  href="https://crypto-olive.vercel.app/"
+                  href="http://app.maitris.app/"
                   target="blank"
                 >
                   Live
-                </a>
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-3 py-2 rounded-md m-1"
-                  href="https://github.com/Muhammad-Umar-Khan/crypto"
-                  target="blank"
-                >
-                  code
                 </a>
               </div>
             </div>
@@ -174,7 +167,7 @@ export default function Home() {
 
                 <Image
                   alt="booksapi"
-                  src={bookstoreApi}
+                  src={rolePlayTribe}
                   width={400}
                   height={200}
                   className="mx-auto"
@@ -210,7 +203,7 @@ export default function Home() {
               <span>
                 <Image
                   alt="fullstack02"
-                  src={fullstack02}
+                  src={ltd}
                   width={400}
                   height={200}
                   className="mx-auto"
