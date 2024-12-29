@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
@@ -8,7 +9,6 @@ import fullstack from "../public/fullstack.png";
 import bookstoreApi from "../public/bookstoreApi.png";
 import crypto from "../public/crypto.png";
 import fullstack02 from "../public/fullstack02.png";
-import { useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -181,10 +181,10 @@ export default function Home() {
                 />
                 <p className="py-3">
                   This is an API - backend for an online bookshop. This backend
-                  has two entities, users and books. A user can register
-                  login. User can read all books and buy a book, while admin-
-                  superuser can add, edit, delete a book. Admin can block or
-                  unblock any user and can see the sales stats of any book for a.                  
+                  has two entities, users and books. A user can register login.
+                  User can read all books and buy a book, while admin- superuser
+                  can add, edit, delete a book. Admin can block or unblock any
+                  user and can see the sales stats of any book for a.
                 </p>
               </span>
               <div className="flex justify-center">
@@ -216,11 +216,11 @@ export default function Home() {
                   className="mx-auto"
                 />
                 <p className="py-3">
-                  This is a fullstack project made with node, express, mongoDB
-                  and a templating engine called EJS. This is a campground
-                  website where users can creat their own campground, rent and
-                  rate a campground. The app also has a five star rating and
-                  review functionality for campgrounds they stayed in.
+                  This is a SAAS product which offers a wide range of ideas for
+                  entrepreneurs who are looking forward to start but don't have
+                  a solid idea to kick-start things off. They offer a ideas in
+                  niches like SAAS, sales, non-profit, content-marketing, stock
+                  investing and allot more
                 </p>
               </span>
               <div className="flex justify-center">
